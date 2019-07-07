@@ -1,0 +1,106 @@
+.cam {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 0;
+}
+
+.side {
+    width: 90%;
+    margin: 18px auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: solid 1px #183152;
+    border-radius: 6px;
+    padding: 6px 0;
+}
+
+.img {
+    border: solid black 1px;
+    border-radius: 4px;
+    width: 100%;
+    height: auto;
+    margin: 6px auto;
+}
+
+.thum {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: solid black 1px;
+    border-radius: 6px;
+    margin: 6px auto;
+    padding: 12px;
+    width: 20%;
+}
+
+.thum button {
+    width: 80%;
+    margin: auto;
+}
+
+#vid {
+    margin: auto;
+    border: solid 2px #183152;
+    border-radius: 6px;
+}
+
+@media(max-width:767px)
+{
+.thum
+    {
+        width: 80%;
+    }
+    .side
+    {
+        width: 100%;
+        border: solid 0 #183152;
+        border-radius: 6px;
+        padding: 6px 0;
+    }
+}
+
+@media(max-width:992px) and (min-width:768px)
+{
+    .thum
+    {
+        width: 50%;
+    }
+}
+
+.fills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fill {
+    display: flex;
+    flex-direction: column;
+    border: solid 2px #183152;
+    border-radius: 6px;
+    margin: 18px 0;
+}
+
+.buttCap {
+    background-color: lightgrey;
+    color: black;
+    border: 0;
+    width: 40%;
+    margin: 3rem auto 1rem auto;
+    text-transform: uppercase;
+    padding:.5rem;
+    font-size: 18px;
+}

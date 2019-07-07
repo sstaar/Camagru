@@ -1,0 +1,53 @@
+.restorePassForm {
+    max-width: 500px;
+    margin: 5rem auto;
+    border: solid 2px #183152;
+    padding: 3rem;
+    border-radius: 18px;
+    background-color: white;
+    box-shadow: inset 0px 0px 147px -53px rgba(0,0,0,0.75), 0px 0px 147px -53px rgba(0,0,0,0.75);
+}
+
+.restorePassForm input {
+    display: block;
+    width: 100%;
+    padding: .5rem;
+    font-size: 18px;
+    border: solid 2px #183152;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 0px 0px 147px -15px rgba(0,0,0,0.75);
+}
+
+.restorePassForm label {
+    padding: 2rem 0 0.5rem .25rem;
+    display: block;
+    text-transform: uppercase;
+}
+
+#restorepassword {
+    background-color: #375D81;
+    color: white;
+    border: 0;
+    width: 40%;
+    margin: 3rem auto 1rem auto;
+    text-transform: uppercase;
+    cursor:pointer;
+    padding:.5rem;
+    transition:.5s background ease;
+    font-size: 18px;
+}
+
+#restorepassword:hover {
+    background-color: #2ABDEB;
+}
+
+.errors {
+    max-width: 400px;
+    margin: 5rem auto;
+    border: solid 2px red;
+    padding: 3rem;
+    border-radius: 6px;
+    background-color: #FF815F;
+    text-align: center;
+}
